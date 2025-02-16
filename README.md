@@ -10,9 +10,13 @@ This project implements Image Steganography using Least Significant Bit (LSB) en
 Features:
 
 ✔️ Hide a Secret Message: Encrypts and embeds text within an image.
+
 ✔️ Extract a Hidden Message: Retrieves and decrypts the hidden text from an image.
+
 ✔️ AES-128 Encryption: Uses a 16-character secret key to ensure message security.
+
 ✔️ Modern GUI: Built with ttkbootstrap for an enhanced user experience.
+
 ✔️ Supports PNG, JPEG, and JPG formats.
 
 Installation:
