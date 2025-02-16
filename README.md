@@ -20,26 +20,31 @@ Features:
 ✔️ Supports PNG, JPEG, and JPG formats.
 
 Installation:
+
 pip install opencv-python numpy ttkbootstrap pillow pycryptodome
 
 Usage:
 
 1. Hide a Message in an Image ( GUI )
-
 Run the program:
 
 python encryption.py
+
 Enter a secret message and a 16-character secret key.
+
 Select an image to embed the message.
+
 Save the encoded image with the hidden message.
 
 2. Extract a Message from an Image ( GUI )
-
 Run the program:
 
 python second_half.py
+
 Select the encoded image containing the hidden message.
+
 Enter the correct 16-character secret key.
+
 The extracted message will be displayed in the output box.
 
 
@@ -50,11 +55,15 @@ Hide a Message in an Image ( GUI )  and Extract a Message from an Image ( GUI )
 Run the program:
 
 Enter a secret message and a 16-character secret key.
+
 Select an image to embed the message.
+
 Save the encoded image with the hidden message
 
 Select the encoded image containing the hidden message.
+
 Enter the correct 16-character secret key.
+
 The extracted message will be displayed in the output box
 
 
@@ -63,9 +72,13 @@ Technologies Used:
 Python – Core programming language.
 
 OpenCV (cv2) – Image processing and modification.
+
 NumPy – Handling pixel-level data in images.
+
 ttkbootstrap – Modern GUI styling.
+
 Pillow (PIL) – Image handling in the GUI.
+
 PyCryptodome – AES encryption for message security.
 
 Security Considerations:
